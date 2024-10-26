@@ -1,0 +1,86 @@
+
+h1, p, hr {
+    max-width: 1440px;
+    margin: 15px auto;
+}
+
+@media screen and (min-width: 270px) and (max-width: 410px) {
+    h1, p, hr {
+        margin: 12px 20px;
+        color: aqua;
+    }
+}
+
+@media screen and (min-width: 410px) and (max-width: 510px) {
+    h1, p, hr {
+        margin: 10px 18px;
+        color: rebeccapurple;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 768px) {
+    h1, p, hr {
+        margin: 8px 16px;
+        color: brown;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1, p, hr {
+        margin: 6px 14px;
+        color: blue;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    h1, p, hr {
+        margin: 3px 9px;
+        color: peru;
+    }
+}
+
+.wrapper {
+    background-color: #eee;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+
+#block {
+        background-color: #666;
+        padding: 16px;
+        width: 25%;
+        text-align: center;
+        color: #ddd;
+        border-radius: 4px;
+    }
+
+#bl {
+    background-color: #666;
+    padding: 16px;
+    width: 25%;
+    text-align: center;
+    color: #ddd;
+    border-radius: 4px;
+    float: initial;
+}
+
+#bl2 {
+    background-color: #666;
+    padding: 16px;
+    width: 25%;
+    text-align: center;
+    color: #ddd;
+    border-radius: 4px;
+    float: inline-start;
+}
+
+#bl3 {
+    background-color: #666;
+    padding: 16px;
+    width: 25%;
+    text-align: justify;
+    color: #ddd;
+    border-radius: 4px;
+    float: inline-end;
+}
+}
