@@ -1,0 +1,37 @@
+
+form {
+    border: 2px solid red;
+    border-radius: 25px;
+    max-width: 600px;
+    padding: 15px;
+}
+
+input[type="submit"]  {
+    margin-top: 15px ;
+    margin-left: calc(50% - 72px);
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.block {
+    display: block;
+}
+
+.div {
+    margin: 15px 10px;
+}
+
+.label {
+    margin: 5px;
+}
+
+.fieldset {
+    margin: 5px;
+}
+
+.textarea {
+    width: 100%;
+}

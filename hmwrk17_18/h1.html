@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+    <link rel="stylesheet" href="./stylehmwrk.css"> 
+</head>
+<body>
+
+    <form action="">
+        <div>
+            <label for="fname" class="block">Your first name:</label>
+            <input type="text" placeholder="Enter first name" id="fname" required>
+        </div>
+
+        <div>
+            <label for="pass" class="block">Enter your password</label>
+            <input type="password" required placeholder="Enter your password" id="pass">
+        </div>
+
+        <div>
+            <label for="confirm-password">Repeat password</label>
+           <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+
+        <div>
+            <label for="birthdate">Your birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" name="sex" id="w" value="woman">
+                <label for="w">Woman</label>
+            
+                <input type="radio" name="sex" id="m" value="men">
+                <label for="m">Men</label>
+            </fieldset>
+            
+        </div>
+
+        <div>
+            <input type="radio" name="age" id="age-over-18" value="over-18"> 
+            <label for="age-over-18">Over 18</label>
+            
+            <input type="radio" name="age" id="age-under-18" value="under-18"> 
+            <label for="age-under-18">Under 18</label>
+        </div>
+        
+        <textarea name="comments" cols="30" rows="10" placeholder="Ваші коментарі"></textarea>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+
+    <nav>
+        <ul>
+            <li> <a href="file:///E:/Decstop/HTML_CSS/hmwrk17_18/h2.html">Форма-фільтр</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

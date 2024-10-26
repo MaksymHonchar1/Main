@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма-фільтр</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <form>
+    <div class="box">
+        <p>Електроника</p>
+    
+        <label for="select">Тип продукту:</label>
+        <select class="input" id="select">
+            <option value="phone" name="filter">Phone</option>
+            <option value="laptop" name="filter">Laptop</option>
+            <option value="vacuum cleaner" name="filter">Vacuum cleaner</option>
+            <option value="battery charging" name="filter">Battery charging</option>
+        </select>
+        
+        <input type="checkbox" value="15w" id="15w"><label for="15w">15w</label>
+        <input type="checkbox" value="25w" id="25w"><label for="25w">25w</label>
+        <input type="checkbox" value="65w" id="65w"><label for="65w">65w</label>
+        <input type="checkbox" value="100w" id="100w"><label for="100w">100w</label>
+        <input type="checkbox" value="200w" id="200w"><label for="200w">200w</label>
+
+
+        <fieldset class="fiel">
+            <legend>Choose your brand</legend>
+
+            <div>
+                <input type="checkbox" id="samsung" name="samsung"><label for="samsung">Samsung</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="lg" name="lg"><label for="lg">Lg</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="asus" name="asus"><label for="asus">Asus</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="lenovo" name="lenovo"><label for="lenovo">Lenovo</label>
+            </div>
+        </fieldset>
+
+
+        <p>Sorting:</p>
+        
+        <select name="sorting">
+            <option value="s11" disabled="disabled" selected="selected">Select a sort method</option>
+
+            <option value="cheap">From cheap</option>
+            <option value="expensive">From expensive</option>
+            <option value="rating">By rating</option>
+        </select>
+        <br>
+
+        <label for="model-name">Model name:</label>
+        <input type="text" name="model-name" id="model-name">
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </div>
+   </form>
+    
+   <iframe src="file:///E:/Decstop/HTML_CSS/hmwrk17_18/h1.html" width="400" height="400"></iframe> 
+
+</body>
+</html>
