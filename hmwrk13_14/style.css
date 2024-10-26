@@ -1,0 +1,145 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.header {
+    background-color: pink;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; 
+    height: 100px;
+}
+
+.menu-item {
+    flex: 1;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.main {
+    display: flex;
+    gap: 5px; 
+    flex: 1;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: green;
+    gap: 5px;
+}
+
+.left {
+    display: flex;
+    background-color: orange;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-left, .b-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-left {
+    background-color: pink;
+}
+
+.b-left {
+    background-color: yellow;
+}
+
+.center-block {
+    display: flex;
+    flex: 2;
+    background-color: aqua;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.a-centr, .A-c, .B-c {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-centr {
+    background-color: yellow;
+}
+
+.A-c {
+    background-color: orange;
+}
+
+.B-c {
+    background-color: red;
+}
+
+.right-block {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.text-block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
