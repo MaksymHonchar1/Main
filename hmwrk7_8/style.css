@@ -1,0 +1,35 @@
+tr:nth-child(odd) {
+background-color: #D6EEEE;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th, td {
+    border-style: dotted
+    
+}
+
+table {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border-spacing: 5px;
+}
+
+td {
+    padding: 8px;
+}
+
+
+
